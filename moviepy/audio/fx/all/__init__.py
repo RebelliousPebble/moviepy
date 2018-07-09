@@ -14,9 +14,9 @@ __all__ = [name for _, name, _ in pkgutil.iter_modules(
 #for name in __all__:
     #exec("from ..%s import %s" % (name, name))
 
-import __moviepy.audio.fx.audio_fadein as audio_fadein
-import __moviepy.audio.fx.audio_fadeout as audio_fadeout
-import __moviepy.audio.fx.audio_left_right as audio_left_right
-import __moviepy.audio.fx.audio_loop as audio_loop
-import __moviepy.audio.fx.audio_normalize as audio_normalize
-import __moviepy.audio.fx.volumex as volumex
+import moviepy.audio.fx.audio_fadein as audio_fadein
+import moviepy.audio.fx.audio_fadeout as audio_fadeout
+import moviepy.audio.fx.audio_left_right as audio_left_right
+import moviepy.audio.fx.audio_loop as audio_loop
+import moviepy.audio.fx.audio_normalize as audio_normalize
+import moviepy.audio.fx.volumex as volumex
