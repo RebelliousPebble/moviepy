@@ -14,6 +14,8 @@ MoviePy
     :target: https://coveralls.io/github/Zulko/moviepy?branch=master
     :alt: Code coverage from coveralls.io
 
+THIS VERSION IS MODIFIED FOR USE WITH PYINSTALLER WITHOUT ERRORS
+
 MoviePy (full documentation_) is a Python library for video editing: cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects. See the gallery_ for some examples of use.
 
 MoviePy can read and write all the most common audio and video formats, including GIF, and runs on Windows/Mac/Linux, with Python 2.7+ and 3. Here it is in action in an IPython notebook:
